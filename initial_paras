@@ -1,0 +1,22 @@
+import numpy as np
+from matplotlib import pyplot as plt
+
+## input dynamic parameters
+n = 3600
+T0 = 1633
+P0 = 1.3e6
+m = 26
+c0 = 100
+gamma = 1.4
+R = 8.314
+
+## input geometric parameters
+s = 21
+l = 20
+thickness_max = 1.12
+t_cl = 0.02
+h = 18
+R_tip = 273
+R_hub = 197
+thickness_trailing = 0.26
+o = 8.11
